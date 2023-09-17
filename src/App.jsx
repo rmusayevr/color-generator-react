@@ -18,7 +18,7 @@ const App = () => {
   return (
     <main>
       <Form addColor={addColor} />
-      <Colorlist colors={colors} />
+      <ColorList colors={colors} />
       <ToastContainer position="top-center" />
     </main>
   );
